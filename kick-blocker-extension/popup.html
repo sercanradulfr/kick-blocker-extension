@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kick Streamer Blocker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="popup bg-gray-900 text-white p-4 w-80 rounded-xl font-sans">
+  <h1 class="text-center text-lg font-bold mb-3">Kick Streamer Blocker</h1>
+
+  <div class="flex gap-2 mb-4">
+    <input id="streamerName" type="text" placeholder="Enter streamer name..." class="flex-1 p-2 rounded-lg text-black" autofocus/>
+    <button id="addBtn" class="bg-green-500 hover:bg-green-400 font-bold px-3 rounded-lg transition transform hover:scale-105">Add</button>
+  </div>
+
+  <h2 class="text-sm font-semibold mb-2">Blocked Streamers</h2>
+  <ul id="blockedList" class="max-h-40 overflow-y-auto space-y-1 shadow-inner rounded-lg p-1"></ul>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body.popup {
+  font-family: 'Inter', sans-serif;
+  background: #121212;
+  color: white;
+  padding: 16px;
+  width: 280px;
+  border-radius: 10px;
+}
+
+h1 { font-size: 1.2em; margin-bottom: 10px; text-align: center; }
+
+input {
+  flex: 1;
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+}
+
+button {
+  background: #00ff84;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+button:hover { background: #00cc68; }
+
+#blockedList {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  max-height: 160px;
+  overflow-y: auto;
+  border-radius: 6px;
+  padding: 4px;
+  background: #1e1e1e;
+}
+
+#blockedList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2a2a2a;
+  margin-bottom: 5px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: transform 0.2s;
+}
+
+#blockedList li:hover { transform: scale(1.02); }
+
+.remove-btn {
+  background: #ff4c4c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 6px;
+  cursor: pointer;
+}
+
+.remove-btn:hover { background: #e63b3b; }
+
+.toast {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: white;
+  font-size: 0.9em;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.toast.show { opacity: 1; }
+.toast.hidden { opacity: 0; display: none; }
