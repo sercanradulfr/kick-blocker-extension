@@ -15,5 +15,7 @@ Hide unwanted streamers from Kick’s Home and Browse pages.
 3. Click "Load unpacked" → Select the project folder
 4. Start blocking streamers!
 
+## Screenshots
 ![Screenshot1](screenshot1.png)
+
 ![Screenshot2](screenshot2.png)
