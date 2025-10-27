@@ -2,7 +2,7 @@
 // @name         Kick Streamer Blocker
 // @namespace    http://tampermonkey.net/
 // @version      1.2
-// @description  Hide blocked streamers and main carousel on Kick.com selectively per page without affecting playback HUD
+// @description  Hide unwanted streamers from Kick’s Home and Browse pages
 // @author       sercanradulfr
 // @match        https://kick.com/*
 // @grant        none
@@ -84,3 +84,4 @@
     }
 
 })();
+
